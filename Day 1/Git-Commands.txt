@@ -1,0 +1,56 @@
+Git --
+        Version Control System is a tool that helps to track changes in the code
+        Git is a Version Control System.
+
+GitHub --
+        Website that allows developers to store and manage their code using Git.
+
+Setting Up Git --
+        Download Git Bash
+
+Configuring Git --
+        git config --global user.name "My name"
+        git config --global user.email "someone@gmail.com"
+        git config --list
+
+
+Clone and Status --
+
+        Clone - Cloning a repo on our local machine
+        git clone <repo link>
+
+        status - displays the state of the code
+        git status
+
+Whenever we modify our files, we have to do two-step process: add and commit
+
+
+There are four types of git status:
+        1. untracked: new files that git doesn't yet track
+        2. modified: changed
+        3. staged: file is ready to be commited
+        4. unmodified: unchanged
+
+Add and Commit --
+        add - add new or changed files in your working directory to th Git staging area
+        git add <file name>
+
+        commit - it is the record of change
+        git commit -m "some message"
+
+Push Command --
+        push - upload local repo content to remote repo
+        git push origin main
+
+
+
+
+Init Command --
+        init - used to create a new git repo
+
+            git init
+            git remote add origin <link>
+            git remote -v  (to verify remote)
+            git branch  (to check branch)
+            git branch -M main  (to rename branch)
+            git push -u origin main
